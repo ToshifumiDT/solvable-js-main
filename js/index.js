@@ -21,11 +21,12 @@ export const litteralString = `kaldt inne i ${array[1]}en`;
 // denne for loopen står feil endre den så han funker
 //NB HUSK OG UNCOMMENT
 
+
 export function myFunc(plussAbleNumber) {
-    for (let i = 0; i < 10; i++) {
-        plussAbleNumber++;
+    for (let i = 0; i < 23; i++) {
+        plussAbleNumber++
     };
-    return plussAbleNumber;
+    return plussAbleNumber
 }
 
 
