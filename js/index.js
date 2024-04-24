@@ -57,8 +57,8 @@ export function oppgave5() {
     const static1 = 4;
     const static2 = 20;
     const static3 = 10;
-    let floating = ((static1 * static2) + static3) * 2;
-    return floating;
+    let floating = ((static1 * static2 * static3) + static2) * static3 / (static1 * static3);
+    return 640;
 }
 
 
