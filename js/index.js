@@ -53,14 +53,16 @@ export function oppgave4() {
 //OPPGAVE FEM
 // endre floating til 640 med matte (*, /, +, -). prøv og gjøre den så intrisang som mulig
 
-export function oppgave5() {
-    const static1 = 4;
-    const static2 = 20;
-    const static3 = 10;
-    let floating = ((static1 * static2 * static3) + static2) * static3 / (static1 * static3);
-    return 640;
-}
 
+//???
+export function oppgave5() {
+    const static1 = 4 
+    const static2 = 20 
+    const static3 = 10
+    let floating = (static1 * (static2 - static3)) + static3 + 590;
+    return floating
+
+}
 
 //OPPGAVE SEKS
 // lag en if else statment som vil sjekke om bool er true eller false. om den er true return bool. om den e false gjør bool true
